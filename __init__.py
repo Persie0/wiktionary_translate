@@ -1,0 +1,1 @@
+from wiktionary_translate.wiktionary_translate import WiktionaryResult
