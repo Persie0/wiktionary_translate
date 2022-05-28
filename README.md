@@ -1,4 +1,4 @@
-# simplytranslate
+# wiktionary_translate
 Get English translations of foreign word with Wiktionary
 
 GitHub: https://github.com/Persie0/wiktionary_translate
