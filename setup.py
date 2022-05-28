@@ -10,8 +10,6 @@ setup(
   url = 'https://github.com/Persie0/wiktionary_translate',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/Persie0/wiktionary_translate/archive/refs/tags/v0.0.1.tar.gz',    # I explain this later on
   keywords = ['wiktionary', 'dictionary'],   # Keywords that define your package best
-  install_requires=[
-      ],
   classifiers=[
     'Development Status :: 5 - Production/Stable',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
     'Intended Audience :: Developers',      # Define that your audience are developers
