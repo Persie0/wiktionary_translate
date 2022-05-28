@@ -1,8 +1,8 @@
 import json
-import urllib.request
 import urllib.error
-from io import StringIO
+import urllib.request
 from html.parser import HTMLParser
+from io import StringIO
 
 
 class MLStripper(HTMLParser):
