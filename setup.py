@@ -7,6 +7,8 @@ setup(
   description = 'Get English translations of foreign word with Wiktionary',   # Give a short description about your library
   author = 'Marvin perzi',                   # Type in your name
   author_email = 'hashcod3@protonmail.com',      # Type in your E-Mail
+  long_description = 'file: README.md',
+  long_description_content_type = 'text/markdown',
   url = 'https://github.com/Persie0/wiktionary_translate',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/Persie0/wiktionary_translate/archive/refs/tags/v0.0.2.tar.gz',    # I explain this later on
   keywords = ['wiktionary', 'dictionary'],   # Keywords that define your package best
