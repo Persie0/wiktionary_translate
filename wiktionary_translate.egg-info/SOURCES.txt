@@ -1,0 +1,9 @@
+LICENSE
+README
+setup.cfg
+setup.py
+wiktionary_translate/wiktionary_translate.py
+wiktionary_translate.egg-info/PKG-INFO
+wiktionary_translate.egg-info/SOURCES.txt
+wiktionary_translate.egg-info/dependency_links.txt
+wiktionary_translate.egg-info/top_level.txt

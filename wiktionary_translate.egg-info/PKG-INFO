@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wiktionary-translate
+Version: 0.0.5
+Summary: Get English translations of foreign word with Wiktionary
+Home-page: https://github.com/Persie0/wiktionary_translate
+Author: Marvin perzi
+Author-email: hashcod3@protonmail.com
+License: mpl-2.0
+Download-URL: https://github.com/Persie0/wiktionary_translate/archive/refs/tags/v0.0.5.tar.gz
+Keywords: wiktionary,dictionary
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# wiktionary_translate
+Get English translations of foreign word with Wiktionary
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/marvinperzi#)
+
+<a href="https://paypal.me/marvinperzi?country.x=AT&locale.x=de_DE"><img src="https://github.com/andreostrovsky/donate-with-paypal/raw/master/blue.svg" height="36"></a>
+
+# Usage 
+You can only get the English definitions of foreign words
+```python
+from wiktionary_translate.wiktionary_translate import WiktionaryResult
+
+if __name__ == "__main__":
+
+    wr = WiktionaryResult()
+    if wr.query(word="essen", lang="de"):
+        print(wr.definitions) # ['to eat']
+        print(wr.partOfSpeech) # Verb
+        print(wr.definitionList[0].parsedExamples) # {'Er isst gern Schokolade.': 'He likes eating chocolate.', '...}
+        print(wr.definitionList[0].examples) # ['Er isst gern Schokolade.', 'Ich esse einen Apfel.']
+        print(wr.definitionList[0].definition) # to eat
+        print(wr.rawResult) # {'other': [{'partOfSpeech': 'Verb', 'language': 'Alemannic German', ...
+```
+&nbsp;
+
+
