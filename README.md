@@ -9,7 +9,7 @@ Get English translations of foreign word with Wiktionary
 You can only get the English definitions of foreign words
 
 ```python
-from wiktionary_translate.wiktionary_translate import WiktionaryResult
+from wiktionary_translate import WiktionaryResult
 
 if __name__ == "__main__":
 
