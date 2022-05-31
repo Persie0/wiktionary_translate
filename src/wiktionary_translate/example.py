@@ -1,4 +1,4 @@
-from wiktionary_translate.wiktionary_translate import WiktionaryResult
+from wiktionary_translate import WiktionaryResult
 
 if __name__ == "__main__":
 
