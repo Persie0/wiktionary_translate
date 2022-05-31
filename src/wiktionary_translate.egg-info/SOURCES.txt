@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/wiktionary_translate/__init__.py
+src/wiktionary_translate/example.py
+src/wiktionary_translate/wiktionary_translate.py
+src/wiktionary_translate.egg-info/PKG-INFO
+src/wiktionary_translate.egg-info/SOURCES.txt
+src/wiktionary_translate.egg-info/dependency_links.txt
+src/wiktionary_translate.egg-info/top_level.txt

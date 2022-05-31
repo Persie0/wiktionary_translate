@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='wiktionary_translate',  # How you named your package folder (MyLib)
-    version='0.1.0',  # Start with a small number and increase it with every change you make
+    version='0.1.1',  # Start with a small number and increase it with every change you make
     license='mpl-2.0',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='Get English translations of foreign word with Wiktionary',
     # Give a short description about your library
